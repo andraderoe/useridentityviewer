@@ -1,0 +1,30 @@
+<div class="container mt-3">
+  <h2>User Profile</h2>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+  <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+
+  <div *ngIf="user">
+    <div *ngIf="!isEditing">
+      <p><strong>Full Name:</strong> {{ user.fullName }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>Source System:</strong> {{ user.sourceSystem }}</p>
+      <p><strong>Last Updated:</strong> {{ user.lastUpdated | date:'short' }}</p>
+      <p><strong>Active:</strong> {{ user.isActive ? 'Yes' : 'No' }}</p>
+      <button class="btn btn-primary" (click)="toggleEdit()">Edit</button>
+    </div>
+
+    <div *ngIf="isEditing">
+      <div class="mb-3">
+        <label>Full Name</label>
+        <input [(ngModel)]="user.fullName" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label>Email</label>
+        <input [(ngModel)]="user.email" class="form-control" />
+      </div>
+      <button class="btn btn-success me-2" (click)="save()">Save</button>
+      <button class="btn btn-secondary" (click)="toggleEdit()">Cancel</button>
+    </div>
+  </div>
+</div>

@@ -5,6 +5,21 @@
 /tmp
 /out-tsc
 /bazel-out
+# Angular build and environment files
+/dist/
+/out-tsc/
+/.angular/
+/node_modules/
+/.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
 
 # Node
 /node_modules
