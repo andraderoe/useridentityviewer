@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # IdentityFrontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
@@ -163,7 +163,7 @@ The API will listen on https://localhost:7009 (or the port shown).
 ## Frontend Setup
 1. **Clone the repo & navigate**
    ```bash
-    git clone https://github.com/yourusername/identity-frontend.git
+    git clone https://github.com/andraderoe/useridentityviewer.git
     cd identity-frontend
 
 2. **Install dependencies**
@@ -226,4 +226,4 @@ This solution is designed for Azure:
 
 ### Thank you
 =======
->>>>>>> e534e3c5d9f681b9e4a2ec162fedb77a2e4293b7
+
