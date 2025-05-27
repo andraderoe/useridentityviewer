@@ -9,7 +9,8 @@ This repository contains two separate projects for a simple User Identity Manage
 
 - Frontend App (identity-frontend): Angular 15 application that consumes the API.
 
-
+**For the domain in Azure Web Hosting you may access it here :**
+- (https://identity-frontend-frepfchhc5gpasfr.eastasia-01.azurewebsites.net/)
 --- 
 
 
