@@ -74,8 +74,8 @@ This repository contains two separate projects for a simple User Identity Manage
 
 1. **Clone the repo & navigate**  
    ```bash
-   git clone https://github.com/yourusername/identity-api.git
-   cd identity-api
+   git clone https://github.com/andraderoe/useridentityviewer.git
+   cd useridentityviewer
 
 2. **Configure connection string**
 - Edit appsettings.json and replace the placeholder under "ConnectionStrings:DefaultConnection":
@@ -104,7 +104,7 @@ The API will listen on https://localhost:7009 (or the port shown).
 1. **Clone the repo & navigate**
    ```bash
     git clone https://github.com/andraderoe/useridentityviewer.git
-    cd identity-frontend
+    cd useridentityviewer
 
 2. **Install dependencies**
    ```bash
